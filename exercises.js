@@ -27,7 +27,8 @@ console.log(testGreeting); // printing the output value of the function.
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
 
-
+var bango1 = 52;
+var bango2 = 34;
 
 /*
  * #2
@@ -44,7 +45,11 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `sum` to test your code.
 */
 
-
+function add(num1, num2) {
+	return num1+num2;
+}
+var sum = add(52,34);
+console.log(sum);
 
 /*
  * #3
@@ -60,7 +65,11 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `difference` to test your code.
 */ 
 
-
+function subtract(num1, num2) {
+	return num1-num2;
+}
+var difference = subtract(52,34);
+console.log(difference);
 
 /*
  * #4
@@ -76,7 +85,11 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `product` to test your code.
 */
 
-
+function multiply(num1, num2) {
+	return num1*num2;
+}
+var product = multiply(52,34);
+console.log(product);
 
 /*
  * #5
@@ -92,7 +105,11 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `quotient` to test your code.
 */
 
-
+function divide(num1, num2) {
+	return num1/num2;
+}
+var quotient = divide(52,34);
+console.log(quotient);
 
 /*
  * #6
@@ -106,7 +123,10 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your result.
 */
 
-
+function checkSum(x) {
+	return "Mariah Carey has been married " + x + " amount of times."
+}
+console.log(checkSum(sum));
 
 /*
  * #7
@@ -120,7 +140,10 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your results.
 */ 
 
-
+function checkDifference(x) {
+	return "Last night I dreamt I ate " - x - " Taco Bell™ soft tacos"
+}
+console.log(checkDifference(difference));
 
 /*
  * #8
@@ -133,7 +156,10 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your result.  
 */
 
-
+function checkProduct(x) {
+	return "" 
+}
+console.log(multiply(sum,product));
 
 /*
  * #9
@@ -146,8 +172,10 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your result.  
 */
 
-
-
+function checkQuotient(x) {
+	return ""
+}
+console.log(multiply(product, quotient));
 /*
  * #10
  * Function - addThenSubtract
@@ -168,7 +196,18 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your result.
 */ 
 
+var bango3 = 43;
+var bango4 = 199;
+var bango5 = 2234;
 
+function addThenSubtract(num1, num2, num3) {
+	return num1+num2;
+	return sum-num3;
+}
+
+var sum = add(bango3, bango4);
+var actual = subtract(sum, bango5);
+console.log(actual);
 
 /*
  * #11
@@ -184,7 +223,14 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your result.
 */ 
 
+function multiplyThenDivide(num1, num2, num3) {
+	return num1 * num2;
+	return product/num3;
+}
 
+var product = multiply(bango3, bango4);
+var actual = divide(product, bango5);
+console.log(actual);
 
 /*
  * #12
@@ -271,7 +317,6 @@ console.log(testGreeting); // printing the output value of the function.
  * Function - throwParty
  * Create a function named throwParty. This function will check the value stored in the `canDrink` variable in the previous exercise. If the value is true, it will return the message "Cheee Hoo! We going to da party!" If false, then it will return the message "Meh, see you at Starbucks." Store the return value to a variable named `canParty`. Console.log your result.
  */
-
 
 
 
