@@ -281,6 +281,7 @@ function shoeSize(inches){
 	return 'The shoe of your size in centimeters is' + inches*3.54 + "cm";
 }
 console.log(shoeSize(36));
+
 /*
  * #15
  * Function allCaps
