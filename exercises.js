@@ -48,8 +48,8 @@ var bango2 = 43;
 function sum(num1, num2){
 	return num1 + num2;
 }
-var sum = add(bango1, bango2);
-console.log(sum)
+var sum = sum(bango1, bango2);
+console.log(sum);
 
 /*
  * #3
@@ -126,7 +126,7 @@ console.log(quotient);
 function checkSum(x){
 	return "Mariah Carey has been married " + x + " amount of times."
 }
-console.log(checkSum(sum);
+console.log(checkSum(sum));
 
 /*
  * #7
@@ -143,7 +143,7 @@ console.log(checkSum(sum);
 function checkDifference(x){
 	return "Last night I dreamt that I ate " + x + " Taco Bell soft tacos."
 }
-console.log(checkDifference(difference);
+console.log(checkDifference(difference));
 
 /*
  * #8
@@ -257,8 +257,11 @@ createFullName("Keegan", "Kolbeinsen");
  */
 
 function eatFood(firstName, lastName, food) {
-	return firstName + "" lastName + "likes to eat " + food
+	return firstName + lastName + "likes to eat " + food
 }
+var firstName = "Keegan";
+var lastName = "Kolbeinsen";
+var food = "burgers";
 console.log(eatFood("Keegan", "Kolbeinsen", "burgers"));
 
 /************** ENGAGE HYPERDRIVE **************/
@@ -291,7 +294,7 @@ function shoeSize(inches){
 function allCaps(str){
 	return str.toUpperCase()
 }
-console.log(allCaps("turn this sentence into all caps!");
+console.log(allCaps("turn this sentence into all caps!"));
 
 /*
  * #16
