@@ -340,14 +340,17 @@ console.log(canDrink);
  *Console.log your result.
  */
 
+var canDrink = true;
+var canParty;
 function throwParty() {
 	if (canDrink === false) {
-		return "Meh, see you at Starbucks."
+			canParty = "Meh, see you at Starbucks.";
 	} else {
-		return "Cheee Hoo! We going to da party!"
+			canParty =  "Cheee Hoo! We going to da party!";
 	}
 }
-console.log(throwParty());
+throwParty();
+console.log(canParty());
 
 
 
